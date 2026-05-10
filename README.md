@@ -184,7 +184,7 @@ soundcrowd/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone --recursive https://github.com/soundcrowd/soundcrowd
+git clone --recursive https://github.com/isairey/AppMovilReproductorMusica
 ```
 
 ---
@@ -192,7 +192,7 @@ git clone --recursive https://github.com/soundcrowd/soundcrowd
 ## 2️⃣ Entrar al proyecto
 
 ```bash
-cd soundcrowd
+cd AppMovilReproductorMusica
 ```
 
 ---
@@ -248,26 +248,12 @@ adb install app/build/outputs/apk/debug/app-debug.apk
 
 ## 🚀 Métodos disponibles
 
-### F-Droid
 
-```bash
-https://soundcrowd.github.io/fdroid/repo
-```
-
----
-
-### IzzyOnDroid
-
-```bash
-https://apt.izzysoft.de/packages/com.tiefensuche.soundcrowd
-```
-
----
 
 ### GitHub Releases
 
 ```bash
-https://github.com/soundcrowd/soundcrowd/releases
+https://github.com/isairey/AppMovilReproductorMusica/releases
 ```
 
 ---
