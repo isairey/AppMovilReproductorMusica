@@ -1,55 +1,379 @@
-# SoundCrowd
+<div align="center">
 
-[![android](https://github.com/soundcrowd/soundcrowd/actions/workflows/android.yml/badge.svg)](https://github.com/soundcrowd/soundcrowd/actions/workflows/android.yml)
-[![GitHub release](https://img.shields.io/github/release/soundcrowd/soundcrowd.svg)](https://github.com/soundcrowd/soundcrowd/releases)
-[![RB Status](https://shields.rbtlog.dev/simple/com.tiefensuche.soundcrowd)](https://shields.rbtlog.dev/com.tiefensuche.soundcrowd)
-[![GitHub](https://img.shields.io/github/license/soundcrowd/soundcrowd.svg)](LICENSE)
+<img width="180" src="https://soundcrowd.github.io/images/screenshot-player.png" />
 
-SoundCrowd is a free, open-source and lightweight music player for Android in modern material design, specialized for playing long music tracks (DJ mixes, live sets, audio books).
+# 🎧 SoundCrowd
 
-It features the generation of waveforms that visualize your music tracks during playback and can be used for precise seeking through gestures.
+### Reproductor musical Android moderno y Open Source 🚀
 
-You can create cue points at your favorite positions in your music tracks. With these markers in the waveform, you can remember them and easily jump back to them.
+<p align="center">
+  <b>SoundCrowd</b> es un reproductor musical ligero para Android diseñado especialmente para mezclas largas, DJ sets, audio books y streaming online, incorporando visualización de waveforms, cue points y reconocimiento inteligente de canciones.
+</p>
 
-Want to know the track id of a specific part in a mix? SoundCrowd comes with build-in audio tagging support by using [SongRec](https://github.com/marin-m/SongRec), an open-source Shazam client implementation, and creates cue points for found track ids. Unlike Shazam, the app records the internal audio of the player, so you don't need to grant access to the microphone or play the music loud!
+<p align="center">
+  <img src="https://img.shields.io/badge/Android-Material%20Design-3DDC84?style=for-the-badge&logo=android">
+  <img src="https://img.shields.io/badge/Open%20Source-GPLv3-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Music-Waveform%20Player-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Streaming-Multi%20Platform-orange?style=for-the-badge">
+</p>
 
-The app contains build-in plugin modules to support the following online streaming services:
-- SoundCloud (requires free account)
-- YouTube
-- Spotify (requires account with active premium subscription)
-- Beatport (requires free account, requires subscription to play full-length tracks)
-- Tidal (requires account with active subscription)
+<p align="center">
+  <a href="#-preview">Preview</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-streaming">Streaming</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-instalación">Instalación</a>
+</p>
 
-## Download
+</div>
 
-[<img src="https://f-droid.org/badge/get-it-on.png"
-      alt="Get it on F-Droid"
-      height="80">](https://soundcrowd.github.io/fdroid/repo)
-[<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png"
-      height="80" alt="Get it at IzzyOnDroid">](https://apt.izzysoft.de/packages/com.tiefensuche.soundcrowd)
+---
 
-or download the apk directly from the [GitHub releases](https://github.com/soundcrowd/soundcrowd/releases) page.
+# 🌌 Acerca de SoundCrowd
 
-## Screenshots
+**SoundCrowd** es una aplicación Android enfocada en ofrecer una experiencia avanzada de reproducción musical para contenido largo como:
 
-<img src="https://soundcrowd.github.io/images/screenshot-browser.png" width="300"/> <img src="https://soundcrowd.github.io/images/screenshot-player.png" width="300"/>
+- 🎵 DJ Mixes
+- 🎧 Live Sets
+- 📚 Audio Books
+- 🌐 Streaming musical
+- 🎶 Tracks extensos
 
-## Building
+La aplicación destaca por integrar:
 
-    $ git clone --recursive https://github.com/soundcrowd/soundcrowd
-    $ cd soundcrowd
-    $ ./gradlew assembleDebug
+- 📊 Waveforms interactivas
+- 🎯 Cue Points
+- 🔍 Reconocimiento musical
+- 📱 Diseño Material moderno
+- ⚡ Reproducción optimizada
+- ☁️ Servicios streaming integrados
 
-Install via ADB:
+El proyecto está orientado al aprendizaje y práctica de:
 
-    $ adb install app/build/outputs/apk/debug/app-debug.apk
+- Android Development
+- Material Design
+- Audio Processing
+- Streaming APIs
+- Multimedia Applications
+- Open Source Development
 
-## License
+---
 
-SoundCrowd and its modules are licensed under GPLv3.
+# 📸 Preview
 
-## Dependencies
+<div align="center">
 
-  - [Glide](https://github.com/bumptech/glide) - BSD, part MIT and Apache 2.0
-  - [AlphabetIndex-Fast-Scroll-RecyclerView](https://github.com/myinnos/AlphabetIndex-Fast-Scroll-RecyclerView) - Apache 2.0
-  - [AppIntro](https://github.com/AppIntro/AppIntro) - Apache 2.0
+<img src="https://soundcrowd.github.io/images/screenshot-browser.png" width="300"/>
+
+<img src="https://soundcrowd.github.io/images/screenshot-player.png" width="300"/>
+
+</div>
+
+---
+
+# ✨ Características
+
+## 🎵 Reproductor Avanzado
+
+- ▶️ Reproducción optimizada para tracks largos
+- 🎧 Compatible con DJ mixes y live sets
+- 📚 Soporte para audiobooks
+- ⚡ Navegación rápida
+- 🔊 Controles multimedia modernos
+
+---
+
+## 📊 Sistema de Waveforms
+
+- 🌊 Visualización de audio en tiempo real
+- 🎯 Seeking preciso mediante gestos
+- 📈 Waveforms interactivas
+- ⚡ Navegación visual avanzada
+
+---
+
+## 📍 Cue Points Inteligentes
+
+- 📌 Crear marcadores personalizados
+- 🔥 Saltar rápidamente entre secciones
+- 🎶 Guardar momentos favoritos
+- 🎧 Navegación profesional
+
+---
+
+## 🔍 Audio Tagging
+
+- 🤖 Integración con SongRec
+- 🎵 Reconocimiento automático de canciones
+- 🔥 Compatible con mixes largos
+- 🎧 Detección interna de audio
+- 🔒 Sin necesidad de micrófono
+
+---
+
+# 🌐 Servicios de Streaming
+
+## ☁️ Plataformas compatibles
+
+- 🎵 SoundCloud
+- ▶️ YouTube
+- 💚 Spotify
+- 🎧 Beatport
+- 🌊 Tidal
+
+---
+
+## 🔐 Requisitos de cuentas
+
+Algunos servicios requieren:
+
+- Cuenta gratuita
+- Suscripción premium
+- Acceso streaming activo
+
+---
+
+# 🛠️ Tecnologías Utilizadas
+
+## 📱 Desarrollo Android
+
+<p>
+  <img src="https://skillicons.dev/icons?i=androidstudio,java,kotlin,gradle" />
+</p>
+
+- Android
+- Java
+- Kotlin
+- Gradle
+
+---
+
+## ⚙️ Librerías y Dependencias
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github" />
+</p>
+
+### Principales dependencias
+
+- Glide
+- AppIntro
+- AlphabetIndex Fast Scroll
+- SongRec Integration
+
+---
+
+# 📂 Estructura del Proyecto
+
+```bash
+soundcrowd/
+│
+├── app/                     # Aplicación Android
+├── modules/                 # Plugins streaming
+├── gradle/                  # Configuración Gradle
+├── screenshots/             # Capturas
+├── build.gradle             # Configuración principal
+├── settings.gradle
+└── README.md
+```
+
+---
+
+# ⚡ Instalación
+
+## 1️⃣ Clonar repositorio
+
+```bash
+git clone --recursive https://github.com/soundcrowd/soundcrowd
+```
+
+---
+
+## 2️⃣ Entrar al proyecto
+
+```bash
+cd soundcrowd
+```
+
+---
+
+## 3️⃣ Compilar aplicación
+
+```bash
+./gradlew assembleDebug
+```
+
+---
+
+# 📦 Instalación APK
+
+## Instalar mediante ADB
+
+```bash
+adb install app/build/outputs/apk/debug/app-debug.apk
+```
+
+---
+
+# 🔥 Funcionalidades Técnicas
+
+## 🎧 Audio Engine
+
+- Waveform rendering
+- Playback engine
+- Gesture navigation
+- Cue point system
+
+---
+
+## 🔍 Song Recognition
+
+- Integración SongRec
+- Detección automática
+- Audio interno Android
+- Reconocimiento inteligente
+
+---
+
+## ☁️ Plugins Streaming
+
+- Arquitectura modular
+- Plugins independientes
+- APIs streaming integradas
+- Soporte multi plataforma
+
+---
+
+# 📲 Descarga
+
+## 🚀 Métodos disponibles
+
+### F-Droid
+
+```bash
+https://soundcrowd.github.io/fdroid/repo
+```
+
+---
+
+### IzzyOnDroid
+
+```bash
+https://apt.izzysoft.de/packages/com.tiefensuche.soundcrowd
+```
+
+---
+
+### GitHub Releases
+
+```bash
+https://github.com/soundcrowd/soundcrowd/releases
+```
+
+---
+
+# 🧠 Objetivos del Proyecto
+
+## 🎯 Aprender y practicar
+
+- Android multimedia
+- Procesamiento de audio
+- Streaming APIs
+- Material Design
+- Plugins Android
+- Visualización Waveform
+- Open Source Apps
+- Arquitectura modular
+
+---
+
+# 📊 Roadmap
+
+## 🚧 Próximamente
+
+- 🌙 Dark Mode avanzado
+- 🎶 Ecualizador profesional
+- ☁️ Sync cloud
+- ❤️ Favoritos inteligentes
+- 🔥 Visualizador avanzado
+- 📲 Android Auto
+- 🎧 Crossfade automático
+- 🚀 Optimización de rendimiento
+
+---
+
+# 🤝 Contribuciones
+
+Las contribuciones son bienvenidas ❤️
+
+## Pasos para contribuir
+
+1. Haz Fork del proyecto
+2. Crea una rama
+
+```bash
+git checkout -b feature/nueva-funcion
+```
+
+3. Realiza tus cambios
+4. Haz commit
+
+```bash
+git commit -m "✨ Nueva funcionalidad"
+```
+
+5. Haz push
+
+```bash
+git push origin feature/nueva-funcion
+```
+
+6. Abre un Pull Request 🚀
+
+---
+
+# 🙌 Créditos
+
+- 🎵 SongRec
+- 🎧 SoundCloud
+- 💚 Spotify
+- 🌊 Tidal
+- 🚀 Comunidad Open Source
+
+---
+
+# 👨‍💻 Autor
+
+<div align="center">
+
+<img src="https://github.com/isairey.png" width="120" style="border-radius:50%" />
+
+## Android Multimedia Developer
+
+Apasionado por aplicaciones musicales, procesamiento de audio y experiencias multimedia modernas.
+
+</div>
+
+---
+
+# 🌟 Apoya el Proyecto
+
+Si te gusta SoundCrowd:
+
+⭐ Dale una estrella al repositorio  
+🍴 Haz Fork del proyecto  
+📢 Compártelo con otros desarrolladores
+
+---
+
+# 📜 Licencia
+
+SoundCrowd y todos sus módulos están licenciados bajo GPLv3.
+
+---
+
+<div align="center">
+
+### 🎧 SoundCrowd — Audio avanzado, streaming y waveforms en una sola app.
+
+</div>
