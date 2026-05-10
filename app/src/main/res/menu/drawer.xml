@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ SPDX-License-Identifier: GPL-3.0-only
+  -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_allmusic"
+            android:checked="true"
+            android:icon="@drawable/baseline_library_music_24"
+            android:title="@string/drawer_allmusic_title" />
+        <item
+            android:id="@+id/navigation_playing_queue"
+            android:icon="@drawable/queue_music_24"
+            android:title="@string/drawer_playing_queue_title" />
+        <item
+            android:id="@+id/navigation_playlists"
+            android:icon="@drawable/list_24"
+            android:title="@string/drawer_playlists_title" />
+        <item
+            android:id="@+id/navigation_cue_points"
+            android:icon="@drawable/ic_round_star_24"
+            android:title="@string/drawer_cue_points_title" />
+        <item
+            android:id="@+id/navigation_history"
+            android:icon="@drawable/history_24px"
+            android:title="@string/drawer_history_title" />
+        <item
+            android:id="@+id/navigation_equalizer"
+            android:icon="@drawable/ic_round_equalizer_24"
+            android:title="@string/equalizer_title" />
+        <item
+            android:id="@+id/navigation_preferences"
+            android:icon="@drawable/ic_round_settings_24"
+            android:title="@string/preferences_title" />
+    </group>
+</menu>

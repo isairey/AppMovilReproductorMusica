@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ SPDX-License-Identifier: GPL-3.0-only
+  -->
+<resources>
+    <dimen name="statusbar_padding">24dp</dimen>
+    <!-- padding determined dynamically by window insets -->
+    <dimen name="statusbar_height">56dp</dimen>
+
+</resources>
