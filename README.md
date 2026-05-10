@@ -252,9 +252,9 @@ adb install app/build/outputs/apk/debug/app-debug.apk
 
 ### GitHub Releases
 
-```bash
+
 https://github.com/isairey/AppMovilReproductorMusica/releases
-```
+
 
 ---
 
